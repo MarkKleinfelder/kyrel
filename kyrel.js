@@ -28,8 +28,31 @@ function main(n) {
   //// v YOUR CODE BELOW HERE v ////
   ////                          ////
   //////////////////////////////////
-
-
+for (var i=0; i<initial_state.length; i++)
+if(initial_state[0] = 'b'){
+  erase();
+  moveRight();
+  moveRight();
+  moveRight();
+  useBlue();
+  draw();
+  }
+  if(initial_state[0] = 'g'){
+    erase();
+    moveRight();
+    moveRight();
+    moveRight();
+    useGreen();
+    draw();
+  }
+   else (initial_state[0] = '.'){
+    erase();
+    moveRight();
+    moveRight();
+    moveRight();
+    erase();
+  }
+   
 
   //////////////////////////////////
   ////                          ////
